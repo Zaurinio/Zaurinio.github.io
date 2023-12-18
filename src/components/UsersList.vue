@@ -57,9 +57,6 @@ export default {
     },
     cancelAutoUpdate() {
       clearInterval(this.timer)
-    },
-    onScroll() {
-      this.windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
     }
   },
   computed: {
